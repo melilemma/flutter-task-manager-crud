@@ -84,4 +84,11 @@ screenshots/
 
 ```bash
 git clone https://github.com/melilemma/flutter-task-manager-crud.git
+---
+
+## Author
+
+**Name:** Melat Lemma 
+**ID:** UGR/2585/15  
+  
 
