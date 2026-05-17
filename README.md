@@ -45,7 +45,7 @@ https://jsonplaceholder.typicode.com
 ---
 
 ###  Edit Task Screen
-![Edit Task Screen](screenshots/edit_task/edit_task.png)
+![Edit Task Screen](screenshots/edit_task/edit_task.PNG)
 
 ---
 
