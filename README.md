@@ -1,34 +1,32 @@
 # 📱 Task Manager App (Flutter CRUD with Bloc + Dio)
 
-A simple and modern Flutter application that performs full CRUD (Create, Read, Update, Delete) operations using the JSONPlaceholder API.  
-The app is built using **Bloc state management** and **Dio for networking**, following a clean architecture approach.
+A Flutter CRUD application built using **Bloc state management** and **Dio HTTP client**.  
+The app performs full Create, Read, Update, and Delete operations using the JSONPlaceholder API.
 
 ---
 
-##  Features
+## ✨ Features
 
-- View list of tasks (Read)
-- Add new task (Create)
--  Edit existing task (Update)
--  Delete task (Delete)
-- Loading state handling
--  Error handling
--  Modern UI with card design
+-  Fetch and display tasks from API
+-  Add new tasks
+-  Edit existing tasks
+-  Delete tasks (Swipe to delete)
+-  Loading states
+- Error handling
+-  Modern card-based UI
 
 ---
 
-##  Technologies Used
+##  Tech Stack
 
 - Flutter
 - Bloc (`flutter_bloc`)
-- Dio (HTTP client)
+- Dio
 - JSONPlaceholder API
 
 ---
 
 ##  API Used
-
-This project uses the free fake REST API:
 
 https://jsonplaceholder.typicode.com
 
@@ -36,23 +34,30 @@ https://jsonplaceholder.typicode.com
 
 ##  Screenshots
 
-###  Home Screen
-![Home Screen](screenshots/home.png)
-
-###  Add Task Screen
-![Add Task Screen](screenshots/add task.png)
-
-###  Edit Task Screen
-![Edit Task Screen](screenshots/editTask.png)
-
-###  Delete Task Screen
-![Delete Task Screen](screenshots/deleteTask.png)
+### Home Screen
+![Home Screen](screenshots/home/home.PNG)
 
 ---
 
-##  Getting Started
+###  Add Task Screen
+![Add Task Screen](screenshots/add_task/add_task.PNG)
 
-### 1. Clone the repository
+---
 
-```bash
-git clone https://github.com/melilemma/flutter-task-manager-crud.git
+###  Edit Task Screen
+![Edit Task Screen](screenshots/edit_task/editTask.PNG)
+
+---
+
+###  Delete Task Feature
+
+#### Delete Action 1
+![Delete Task 1](screenshots/delete_task/deleteTask.PNG)
+
+#### Delete Action 2
+![Delete Task 2](screenshots/delete_task/deleteTask2.PNG)
+
+---
+
+##  Project Structure
+
