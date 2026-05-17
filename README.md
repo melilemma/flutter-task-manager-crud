@@ -45,19 +45,43 @@ https://jsonplaceholder.typicode.com
 ---
 
 ###  Edit Task Screen
-![Edit Task Screen](screenshots/edit_task/editTask.PNG)
+![Edit Task Screen](screenshots/edit_task/edit_task.png)
 
 ---
 
 ###  Delete Task Feature
 
 #### Delete Action 1
-![Delete Task 1](screenshots/delete_task/deleteTask.PNG)
+![Delete Task 1](screenshots/delete_task/delete_task_1.png)
 
 #### Delete Action 2
-![Delete Task 2](screenshots/delete_task/deleteTask2.PNG)
+![Delete Task 2](screenshots/delete_task/delete_task_2.png)
 
 ---
 
 ##  Project Structure
+lib/
+├── core/
+├── features/
+│ └── todos/
+│ ├── data/
+│ ├── presentation/
+│ └── bloc/
+├── main.dart
+
+screenshots/
+├── home/
+├── add_task/
+├── edit_task/
+├── delete_task/
+
+
+---
+
+##  Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/melilemma/flutter-task-manager-crud.git
 
